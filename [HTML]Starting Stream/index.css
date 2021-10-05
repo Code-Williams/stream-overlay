@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Open Sans';
+    color: white;
+    user-select: none;
+}
+
+body {
+    background-color: rgb(1, 141, 255);
+}
+
+#startingText{
+    font-family: 'Lalezar';
+    margin-top: 40px;
+    font-size: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transition: margin-top 0.3s ease-in-out, font-size 0.3s ease-in-out;
+}
+
+#timer{
+    margin-top: 40px;
+    font-size: 110px;
+    font-weight: 800;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    text-shadow: 1px 1px 15px rgb(48, 48, 48);
+    transition: opacity 0.5s ease-in-out;
+}
+
+#MyLogo{
+    position: absolute;
+    bottom: 30%;
+    right: 43%;
+    /* width: 200px; */
+    transition: bottom 0.3s ease-in-out, width 0.3s ease-in-out, right 0.3s ease-in-out;
+}
+
+#stayTune{
+    font-size: 25px;
+    margin-left: 7%;
+    margin-top: -3%;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#social1{
+    font-size: 20px;
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    opacity: 0;
+    transition: opacity 0.25s ease-in-out;
+}
+
+#bottomBackground{
+    position: absolute;
+    bottom: 0;
+    z-index: -10;
+}
